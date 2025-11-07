@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  direction: rtl;
+  background-color: #000;
+  color: #FFD700;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(90deg, #000, #1a1a1a);
+  padding: 30px 10px;
+  border-bottom: 2px solid #FFD700;
+}
+
+header h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #FFD700;
+}
+
+header p {
+  color: #aaa;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.menu-section {
+  margin: 40px 0;
+}
+
+.menu-section h2 {
+  font-size: 22px;
+  color: #FFD700;
+  border-bottom: 1px solid #FFD700;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+  background-color: #111;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255,215,0,0.3);
+}
+
+.menu-section li {
+  padding: 12px 0;
+  border-bottom: 1px solid #333;
+  font-size: 16px;
+}
+
+.menu-section li:last-child {
+  border-bottom: none;
+}
+
+footer {
+  background: #111;
+  padding: 20px;
+  border-top: 2px solid #FFD700;
+}
+
+footer p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.insta-logo {
+  width: 40px;
+  height: 40px;
+  filter: brightness(1) saturate(1);
+  transition: 0.3s;
+}
+
+.insta-logo:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 5px #FFD700);
+}
